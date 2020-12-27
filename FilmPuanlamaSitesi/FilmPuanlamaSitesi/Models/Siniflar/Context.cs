@@ -16,7 +16,7 @@ namespace FilmPuanlamaSitesi.Models.Siniflar
         public DbSet<Home> Homes { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Data Source=DESKTOP-8D8KG84\\EMRE;Initial Catalog=FilmDb;Integrated Security=True");
+            optionsBuilder.UseSqlServer("Data Source=DESKTOP-89DCQGD\\SQLEXPRESS;Initial Catalog=FilmDb;Integrated Security=True");
         }
     }
 }
